@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFrameworks>netcoreapp3.1</TargetFrameworks>
-		<Platforms>x64</Platforms>
-		<AssemblyName>SharpFont</AssemblyName>
-		<RootNamespace>SharpFont</RootNamespace>
-		<LangVersion>8.0</LangVersion>
+    <PropertyGroup>
+        <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+        <Platforms>x64</Platforms>
+        <AssemblyName>SharpFont</AssemblyName>
+        <RootNamespace>SharpFont</RootNamespace>
+        <LangVersion>8.0</LangVersion>
+        <RuntimeIdentifiers>win-x64;linux-x64;osx.10.10-x64</RuntimeIdentifiers>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
 </Project>
